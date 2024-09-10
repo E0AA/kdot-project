@@ -1,0 +1,66 @@
+.search-bar {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 60px 0;
+}
+
+.search-bar a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search-bar > div:first-child {
+    display: flex;
+    gap: 100px;
+}
+
+.search-bar > div:last-child {
+    display: flex;
+    background-color: #F5F5F5;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 10px;
+}
+
+.search-bar svg {
+    width: 32px;
+    height: 32px;
+}
+
+.catalog-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 570px;
+    margin-bottom: 50px;
+}
+
+.product-card > img {
+    position: relative;
+    width: 570px;
+    height: 570px;
+}
+
+.product-card > p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+}
